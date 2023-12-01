@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            width: 100%;
+            text-align: center;
+        }
+        h1{
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: bold;
+            margin: 50px;
+        }
+        .container{
+            display: grid;
+            width: 40%;
+            margin: 0 auto;
+            text-align: center;
+            border: 2px solid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(14,1fr);
+        }
+        .fntstyle{
+            color: white;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-weight: 100;
+        }
+        .box1{
+            background-color: black;
+        }
+        .box2{
+            background-color: red;
+        }
+        .box3{
+            grid-row-start: 3;
+            grid-row-end: 6;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="heading">
+            <h1>Mobile</h1>
+        </div>
+        <div class="container">
+            <div class="box1 fntstyle">
+                Header
+            </div>
+            <div class="box2 fntstyle">
+                Menu
+            </div>
+            <div class="box3 fntstyle">
+                Hero
+            </div>
+            <div class="box4 fntstyle">
+                Main
+            </div>
+            <div class="box5 fntstyle">
+                Banner
+            </div>
+            <div class="box6 fntstyle">
+                Extra
+            </div>
+            <div class="box7 fntstyle">
+                Image
+            </div>
+        </div>
+    </section>
+</body>
+</html>

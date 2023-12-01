@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.jcs {
+    justify-content: space-between;
+}
+
+.fntfmly {
+    font-family: "Montserrat";
+}
+
+.row {
+    display: flex;
+}
+
+.ylcl {
+    background-color: #f6d365;
+}
+
+.blcl{
+    background-color: #333333;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.first-sec {
+    background-image: url(./img/homepagebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000084;
+    background-blend-mode: multiply;
+}
+
+header {
+    padding: 60px 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0 0 72px;
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: 550;
+    color: white;
+}
+
+.mainpage {
+    padding: 20px 0 180px 0;
+}
+
+.mainpage h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 108px;
+}
+
+.mainpage p {
+    color: white;
+    font-size: 25px;
+    width: 57%;
+    margin: 20px auto;
+}
+
+.orderbtn button {
+    padding: 17px 90px;
+    margin: 30px auto;
+    font-size: 20px;
+    color: #333333;
+    background-color: #f6d365;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.popular-text {
+    padding: 65px 0 30px 0;
+    color: #333333;
+}
+
+.popular-text h2 {
+    font-size: 62px;
+    font-weight: 1200;
+    text-transform: uppercase;
+}
+
+.popular-text p {
+    font-size: 24px;
+    width: 57%;
+    margin: 22px auto;
+}
+
+.card {
+    width: 90%;
+    margin: 0 auto;
+    color: #333333;
+}
+
+.col-30 {
+    width: 28%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    padding: 13px 0;
+    font-weight: 1200;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.card p {
+    padding: 20px 0 90px 0;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-50 {
+    width: 50%;
+    padding: 100px 0;
+}
+
+.chickenwings img {
+    width: 98%;
+    padding: 67px 0;
+}
+
+.wing-main h2 {
+    font-size: 55px;
+    color: #ffffff;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 100px 0 0 0;
+    margin: 30px 0 0 0;
+}
+
+.wing-main p {
+    font-size: 25px;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: left;
+}
+
+.col-31 {
+    width: 28%;
+    border: 8px solid;
+    margin: 15px 0 80px 0;
+}
+
+.our-statistics p {
+    padding-top: 15px;
+}
+
+.statistics-main {
+    padding-bottom: 50px;
+}
+
+.boxtxt {
+    padding: 70px 0;
+}
+
+.our-statistics h1 {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.our-statistics h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.chickensatay img {
+    width: 98%;
+    padding: 67px 0;
+}
+
+.shef {
+    background-image: url(./img/shefBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shef-intro {
+    padding: 80px 0;
+}
+
+.photo {
+    width: 240px;
+    margin: 0 auto;
+}
+
+.shef-intro img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.shef-intro p {
+    color: #333333;
+    font-size: 35px;
+    width: 80%;
+    margin: 60px auto;
+}
+
+.shef-intro h2 {
+    color: #333333;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.content h3 {
+    font-size: 60px;
+}
+
+.our-update{
+    padding-bottom: 100px;
+}
+.our-update h2{
+    padding: 40px 0 30px 0;
+}
+.our-update p{
+    width: 80%;
+    font-size: 28px;
+}
+.searchbox{
+    padding: 40px 0 60px 0;
+}
+.searchbox input{
+    padding: 12px 100px;
+    font-size: 20px;
+    border: 0;
+}
+.our-update button{
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #333333;
+    padding: 12px 30px;
+    margin-left: -5px;
+    border: 0;
+}
+.about{
+    padding: 70px 0;
+    font-family: sans-serif;
+}
+
+.about .card{
+    width: 100%;
+    padding-top: 30px;
+}
+.col-49{
+    width: 49%;
+}
+.col-15{
+    width: 18%;
+}
+.col-10{
+    width: 10%;
+}
+
+.about h4{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight:lighter;
+    letter-spacing: 3px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.about-title{
+    width: 77%;
+}
+.about li{
+    list-style: none;
+    text-align: left;
+    font-size: 22px;
+    color: #ffffff;
+    padding: 5px 0;
+    letter-spacing: 1px;
+}
+.about a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.about img{
+    width: 220px;
+    padding-top: 10px;
+}
